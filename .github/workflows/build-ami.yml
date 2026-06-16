@@ -6,7 +6,7 @@ on:
       docker_image:
         description: 'Docker image to bake into AMI'
         required: true
-        default: 'kanjalex/fastapi-simple:latest'
+        default: 'kanjalex/fastapi-cicd:latest'
       environment:
         description: 'Environment (dev, staging, prod)'
         required: false
